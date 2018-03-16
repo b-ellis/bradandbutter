@@ -23,7 +23,7 @@ const ContactWrapper = styled.div`
   margin: 0 auto;
   align-items: center;
   max-width: 650px;
-  height: 71vh;
+  height: 78vh;
 
   h1{
     font-family: Bangers;
