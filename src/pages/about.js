@@ -24,7 +24,7 @@ export default class About extends Component {
           <h2>Hey I'm Brad Ellis,</h2>
           <h2>I am a Web Developer who is seeking an opportunity to work with a group of talented developers.
           After graduating from West Virginia University in 2015 with a B.A. in Psychology I started to get into Web Development.
-          I attended <a href='https://www.thinkful.com/'>Thinkful</a> where I gained a good solid foundation for Fullstack Web Development, building applications in the MERN stack.
+          I attended <a href='https://www.thinkful.com/'>Thinkful</a> where I gained a solid foundation for Fullstack Web Development, building applications in the MERN stack.
           I enjoy to continuously learn new technologies and libraries for my arsenal of tools. 
           </h2>
           <h2>I also enjoy playing music, I have been playing guitar and drums for the majority of my life and love playing with other musicians.
