@@ -11,44 +11,6 @@ import Header from '../components/Header'
 import Logo from '../images/Brad_and_Butter_Logo.svg';
 import './index.css'
 
-const ChildrenWrapper = styled.div`
-  margin: 0 auto;
-  padding: 0 1.0875rem 1.45rem;
-  padding-top: 85px;
-  background-color: #61b5e2;
-  overflow: scroll;
-`;
-
-const FooterWrapper = styled.div`
-  background-color: #fedc0d;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-
-  h4{
-    margin: 10px;
-    font-family: Bangers;
-    letter-spacing: 5px;
-    color: #0A1C20;
-  }
-
-  ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    width: 100%;
-    align-items: center;
-    margin: 0;
-
-    li{
-      padding: 0 15px;
-      margin-bottom: 0;
-    }
-  }
-`;
-
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -89,8 +51,42 @@ const TemplateWrapper = ({ children }) => (
   </div>
 )
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+const ChildrenWrapper = styled.div`
+  margin: 0 auto;
+  padding: 0 1.0875rem 1.45rem;
+  padding-top: 85px;
+  background-color: #61b5e2;
+  overflow: scroll;
+`;
 
-export default TemplateWrapper
+const FooterWrapper = styled.div`
+  background-color: #fedc0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+
+  h4{
+    margin: 10px;
+    font-family: Bangers;
+    letter-spacing: 5px;
+    color: #0A1C20;
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+
+    li{
+      padding: 0 15px;
+      margin-bottom: 0;
+    }
+  }
+`;
+
+export default TemplateWrapper;

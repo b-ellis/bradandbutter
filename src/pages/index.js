@@ -7,15 +7,15 @@ class IndexPage extends Component{
   constructor(){
     super();
     this.state = {
-      me: ['Web Developer', 'Mountaineer', 'Musician', 'Luthier', 'Beer Drinker'],
+      me: ['Mountaineer', 'Musician', 'Luthier', 'Beer Drinker', 'Web Developer'],
       display: 'Web Developer',
-      index: 1
+      index: 0
     }
     this.setTime = this.setTime.bind(this);
   }
 
   componentDidMount(){
-    this.interval = setInterval(this.setTime, 5000)
+    this.interval = setInterval(this.setTime, 4000)
   }
 
   componentWillUnmount(){

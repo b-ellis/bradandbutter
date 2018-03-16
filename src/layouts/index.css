@@ -8,6 +8,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #61b5e2;
 }
 article,
 aside,
@@ -632,7 +633,7 @@ pre tt:after {
 /*  My Styles  */
 
 .adjectives {
-  animation: appearDisappear 5s  infinite;
+  animation: appearDisappear 4s  infinite;
 }
 
 @keyframes appearDisappear {
