@@ -1,15 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import styled from 'styled-components';
-import Link from 'gatsby-link'
+import Link from 'gatsby-link';
 import FontAwesome from 'react-fontawesome';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faFacebook } from '@fortawesome/fontawesome-free-brands';
 
 import Header from '../components/Header'
 import Logo from '../images/Brad_and_Butter_Logo.svg';
-import './index.css'
+import './index.css';
 
 
 const TemplateWrapper = ({ children }) => (

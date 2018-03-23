@@ -15,12 +15,6 @@ export default class Projects extends Component {
         gitLink='https://github.com/b-ellis/Cook'
         tech={['React', 'Meteor', 'MongoDB', 'Node']}/>
         <Screen 
-        title='Musician'
-        about='This project displays the skills taught by Thinkful. It is a fullstack project, that uses node.js, powered by express in the back-end and the client-side is built by react.js. The application allows users to set-up their own profile, search and like their favorite artist. The artist page allows the user to view related-artist and a bio about the artist.'
-        urlLink='https://thinkfulcapstone.herokuapp.com/#/'
-        gitLink='https://github.com/b-ellis/Fullstack-capstone'
-        tech={['React', 'Redux', 'MongoDB', 'Express', 'Node']}/>
-        <Screen 
         title='Tabs'
         about='This project was built for Thinkful after learning about server-side development in Node.js. This application contacts the songsterr API gathering guitar tabs of a searched artist. The user then is able to save tabs into a database and view all tabs that were saved.'
         urlLink='https://salty-hollows-61107.herokuapp.com/'
