@@ -10,7 +10,7 @@ export default class Projects extends Component {
         <h1>Projects</h1>
         <Screen 
         title='Grateful Cooking'
-        about='A personal project built while learning Meteor. The app allows users to build their own personal cookbook. Once a user has added a reacipe they can add it or remove it from a menu for their meals for the week. If a recipe is in the menu they will have a personal shopping list of all the ingredients they need.'
+        about='A personal project built while learning Meteor. The app allows users to build their own personal cookbook. Once a user has added a recipe they can add it or remove it from a menu for their meals for the week. If a recipe is in the menu they will have a personal shopping list of all the ingredients they need.'
         urlLink='https://grateful-cooking.herokuapp.com/'
         gitLink='https://github.com/b-ellis/Cook'
         tech={['React', 'Meteor', 'MongoDB', 'Node']}/>
