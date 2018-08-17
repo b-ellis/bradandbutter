@@ -7,7 +7,9 @@ const HeaderWrapper = styled.div`
     background: #fedc0d;
     box-shadow: 0 2px 13px 2px #d85a00;
     position: fixed;
-    width: 100%
+    width: 100%;
+    z-index: 10;
+    
       img {
         height: 60px;
         margin: 0;

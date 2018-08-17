@@ -69,11 +69,38 @@ const ScreenWrapper = styled.div`
     li {
       font-family: Oswald;
       color: #0A1C20;
+      z-index: 1;
 
       a{
         text-decoration: none;
-        color: #0A1C20;
+        position: relative;
+        color: #d85a00;
       }
+
+      a:hover{
+          color: #61b5e2;
+      }
+
+        a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #61b5e2;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+            }
+
+            a:hover:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            }
     }
   }
 `
